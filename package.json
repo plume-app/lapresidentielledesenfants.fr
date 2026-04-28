@@ -1,7 +1,7 @@
 {
   "name": "lespetitsmolieres-fr",
   "version": "1.0.0",
-  "description": "Static mirror of lespetitsmolieres.fr Framer site for GitHub Pages",
+  "description": "Static mirror of lapresidentielledesenfants.fr Framer site for GitHub Pages",
   "private": true,
   "type": "module",
   "scripts": {

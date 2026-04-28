@@ -41,7 +41,7 @@ jobs:
 
       - name: Run scraper
         env:
-          FRAMER_URL: https://breezy-founders-904817.framer.app/
+          FRAMER_URL: https://numerous-finance-657341.framer.app/
         run: node scripts/scrape.js
 
       - name: Add .nojekyll (disable Jekyll processing)
@@ -53,7 +53,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
-          cname: lespetitsmolieres.fr
+          cname: lapresidentielledesenfants.fr
           # Keep only the latest snapshot on gh-pages (no history bloat)
           force_orphan: true
           commit_message: "chore: mirror update ${{ github.run_number }}"

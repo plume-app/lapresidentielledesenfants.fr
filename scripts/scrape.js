@@ -26,7 +26,7 @@ import { Readable } from "stream";
 const FRAMER_URL =
   process.argv[2] ||
   process.env.FRAMER_URL ||
-  "https://breezy-founders-904817.framer.app/";
+  "https://numerous-finance-657341.framer.app/";
 
 const BASE_ORIGIN = new URL(FRAMER_URL).origin;
 const DIST_DIR = path.resolve("dist");
@@ -448,7 +448,7 @@ async function main() {
     });
 
     // Rewrite internal Framer site URLs to relative paths
-    // e.g. https://breezy-founders-904817.framer.app/about → ../about (depth 1)
+    // e.g. https://numerous-finance-657341.framer.app/about → ../about (depth 1)
     html = html.replaceAll(BASE_ORIGIN + "/", prefix || "./");
 
     // Strip Framer editor artifacts that cause CSP errors outside framer.com

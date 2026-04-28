@@ -1,8 +1,8 @@
-# lespetitsmolieres.fr — Project Guide
+# lapresidentielledesenfants.fr — Project Guide
 
 ## What this project does
 
-Static mirror of the [lespetitsmolieres.fr](https://breezy-founders-904817.framer.app/) Framer site, hosted on GitHub Pages at `https://plume-app.github.io/lespetitsmolieres.fr`.
+Static mirror of the [lapresidentielledesenfants.fr](https://numerous-finance-657341.framer.app/) Framer site, hosted on GitHub Pages at `https://plume-app.github.io/lapresidentielledesenfants.fr`.
 
 A Puppeteer scraper crawls the live Framer site, downloads all assets locally, rewrites all URLs to relative paths, and outputs a fully self-contained static site into `dist/`.
 
@@ -26,7 +26,7 @@ dist/                      — Generated output; committed and deployed as-is
 Run the scraper locally, then commit and push `dist/`:
 
 ```bash
-FRAMER_URL=https://breezy-founders-904817.framer.app/ npm run scrape
+FRAMER_URL=https://numerous-finance-657341.framer.app/ npm run scrape
 git add dist/
 git commit -m "chore: mirror update"
 git push
@@ -77,8 +77,8 @@ Steps:
 
 | Task | Command |
 |------|---------|
-| Run scraper locally | `FRAMER_URL=https://breezy-founders-904817.framer.app/ npm run scrape` |
-| Check GitHub Pages URL | `https://plume-app.github.io/lespetitsmolieres.fr` |
+| Run scraper locally | `FRAMER_URL=https://numerous-finance-657341.framer.app/ npm run scrape` |
+| Check GitHub Pages URL | `https://plume-app.github.io/lapresidentielledesenfants.fr` |
 
 ## Known gotchas
 

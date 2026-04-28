@@ -1,4 +1,4 @@
-# lespetitsmolieres.fr
+# lapresidentielledesenfants.fr
 
 Static mirror of the Framer site, hosted on GitHub Pages.
 
@@ -6,14 +6,14 @@ Static mirror of the Framer site, hosted on GitHub Pages.
 
 You can manually run the workflow from the Actions tab.
 
-https://github.com/plume-app/lespetitsmolieres.fr/actions/workflows/deploy.yml
+https://github.com/plume-app/lapresidentielledesenfants.fr/actions/workflows/deploy.yml
 
 click on the "Run workflow" button and select the `master` branch.
 
 ## Scrape
 
 ```bash
-FRAMER_URL=https://breezy-founders-904817.framer.app/ npm run scrape
+FRAMER_URL=https://numerous-finance-657341.framer.app/ npm run scrape
 ```
 
 Then commit `dist/` and push.
