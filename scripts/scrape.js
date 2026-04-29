@@ -237,7 +237,7 @@ async function main() {
   // BFS crawl queue — keyed by normalized URL path to avoid duplicates.
   // Seed with the root plus any pages not reachable via <a href> from the home
   // page (e.g. the 404 page, or routes only linked from forms/buttons).
-  const SEED_PATHS = ["/", "/inscription-ceremonie", "/404"];
+  const SEED_PATHS = ["/", "/success", "/404"];
   const visited = new Set();
   const queue = SEED_PATHS.map((p) => BASE_ORIGIN + p);
 
